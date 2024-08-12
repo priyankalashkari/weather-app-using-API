@@ -1,0 +1,233 @@
+body {
+    background: url("1.jpg")no-repeat; 
+    background-position: full;
+    background-size: cover;
+    color: rgb(250, 240, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(254, 245, 245);
+    margin: 60px auto 0;
+    border-radius: 20px;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 38px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.weather h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.text {
+    font-style: italic;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+    display: none;
+    font-size: 20px;
+}
+
+
+/* For Mobile Phones */
+@media (max-width: 418px) {
+    body {
+        background: rgb(64, 6, 64); 
+        color: rgb(250, 240, 240);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }   
+
+    h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgb(254, 245, 245);
+        margin: 100px auto 0;
+        border-radius: 20px;
+        padding: 40px 40px;
+        text-align: center;
+    }
+
+    .search input {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 15px;
+        height: 27px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 40px;
+        font-size: 15px;
+    }
+    
+    .search button {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .search button img {
+        width: 12px;
+    }
+
+    .weather-icon {
+        width: 80px;
+        margin-top: 30px;
+    }
+    
+    .weather h1 {
+        font-size: 27px;
+        font-weight: bold;
+    }
+    
+    .weather h2 {
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: -20px;
+    }
+    
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3px;
+        margin-top: 30px;
+    }
+    
+    .col {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .col img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .humidity, .wind {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .text {
+        font-style: italic;
+    }
+    
+    .weather {
+        display: none;
+    }
+    
+    .error {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+        display: none;
+        font-size: 20px;
+    }
+    
+}
